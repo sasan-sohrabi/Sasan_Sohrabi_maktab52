@@ -1,7 +1,3 @@
-# Exercise 1 part A
-
-# Description:
-# Write a python script that generate a key and then save it in a file.
 
 # Import related library for generating key and also for writing script.
 from cryptography.fernet import Fernet
