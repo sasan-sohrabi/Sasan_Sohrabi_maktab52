@@ -1,0 +1,110 @@
+
+Ever tried to buy a computer made entirely of US parts and assembled here? You can't. But here are 46 companies making high-quality tech products in the United States.
+“Designed by Apple in California.” The tag is in every iPhone box, asserting the primacy of thousands of minds in Cupertino feverishly inventing the latest technology. But once they come up with the plans for an AirTag or an iMac, those get shipped overseas. It’s been decades since Silicon Valley, the heart of American computing, made many of its own devices.
+A recent Reuters-Ipsos survey shows that Americans want to buy more US-made products, as long as they don’t have to pay more for them. The poll found that 69% of people said an item being US-made was at least somewhat important, but that 63% wouldn’t be willing to pay more than a 10% premium for something to be American-made.  
+Manufacturing jobs tend to be good jobs; at least, they're better than just selling imported products. According to the Bureau of Labor Statistics, "assemblers and fabricators" earn an average of $37,550 per year, while "retail sales workers" make $29,010.
+"Our nation is falling behind its biggest competitors on research and development (R&D), manufacturing, and training. It has never been more important for us to invest in strengthening our infrastructure and competitiveness, and in creating the good-paying, union jobs of the future," the Biden administration stated in a recent executive order.
+Manufacturing is also about national autonomy, tech leaders told us. US factories are subject to US laws, and they're physically proximate to US customers. Even when our products are made in allied countries, such as Mexico or South Korea, we lose the ability to affect everything from working conditions to consumer rights when we cross borders.
+"If all the manufacturing is in Asia...what if those switches go off?" asks Greg Slater, Intel VP and Senior Director of Global and Regulatory Affairs. "Qualcomm and Apple and others should be concerned. If a switch goes off in Taiwan, for whatever reason, you're stranded."
+US manufacturing has become an even hotter topic in tech because of the current chipset shortage, which is affecting everything from T-Mobile's new home internet routers to iPads and cars. New Intel CEO Pat Gelsinger has pledged $20 billion to build two new chip-manufacturing facilities in Arizona; Taiwanese firm TSMC plans to open a $12 billion chip factory in Arizona in 2024; and Samsung may be planning a $17 billion chip plant in Texas to be built in Q3 2021.
+"There's an opening here for Joe Biden to really be a 'Made in America' president," Alliance for American Manufacturing (AAM) President Scott Paul told CNN. 
+To survey the current state of American high-tech manufacturing, we found 46 companies across the country that are building technology devices in five categories: chips, PCs and servers, consumer electronics, home audio, and electric vehicles. The list isn't exhaustive; we only included companies for which we could verify US manufacturing. (The day we published this story, Peloton announced that it's building its first US factory in Wood County, OH.)
+These companies are large and small, with factories in California, Vermont, and in between. Generally, American electronics manufacturing is about making high-value, high-quality products with a focus on customer support. But that means the affordable gadgets that stock Walmart shelves, by and large, will be made abroad into the future. 
+You can peruse the companies by interacting with the map, using the locations list below the map, or clicking on the thumbnails at the end of the story.
+Politicians can tell you why we should build things in America: national security and jobs. But the companies we spoke to had other reasons for sticking around in the US.
+One, of course, is sheer pride and community feeling. U-Turn Audio's Ben Carter "always wanted to build a company here in Massachusetts and employ people from our community," he said, and Clark now has 21 people building turntables in Woburn.
+But in large part, it's about responsiveness. Most of the companies we spoke to wanted to be physically closer to their customers, letting them be more responsive in delivery or customer service. The audio and PC builders we spoke to, especially, said that bringing design, assembly, and support under one roof makes for a higher-quality product with better customer satisfaction.
+“Having manufacturing and R&D co-located in our own facility allows us to test new iterations and upgrades and bring products to market faster than if our manufacturing was outsourced. In addition, due to shipping restrictions and workforce complications in Taiwan in 2020 from COVID-19, having the manufacturing brought back to our facility in Washington allowed us to stay on schedule and launch our u8 Terminal in Q4 of 2020,” said Jon Maron, VP of marketing for Kymeta, which makes satellite dishes.
+MSI may be a Taiwanese company, but it brought production to the US so it could be nimble when responding to American consumers’ needs. “MSI is known to be one of the fastest-launching partners whenever a new generation [of tech] comes out,” system product management director Clifford Chun said. “By producing in the USA, we are able to have all available parts in stock and ‘air in’ whatever is newest. [Ship] transportation from Asia has gone up in time from 3 weeks to over two months, these days.”
+Manufacturing locally is more environmentally friendly, cable manufacturer OFS pointed out. According to UK newspaper The Independent, cargo ships are an environmental disaster, burning "heavy and toxic" fuel made from the "dregs left over at the end of the refinery process." Building heavy things such as cars or spools of fiber-optic cable near where the customers are helps reduce manufacturing’s impact on the Earth.
+For Flir, which makes infrared camera sensors, there's another reason: Many of its products are used by government agencies. Those agencies tend to have "buy American"—or at the very least, "don't buy Chinese"—requirements. "Some of the products Flir makes are defense-related, and due to government regulations, we need to manufacture them within the US, typically with certain US components," said Flir spokesman Paul Clayton.
+Drone maker Skydio called out the US’s “asymmetric advantages” in certain areas, such as AI, as a reason to build here. “Skydio benefits from America’s leadership in artificial intelligence. Our founders met as graduate students at MIT,” the company said. Flir agreed, pointing out that Goleta, CA has been a center of excellence in IR technologies since the 1960s.
+About 12% of chips are made in the US, down from 37% in 1990, said analyst Bob O'Donnell in USA Today. Chipmaker jobs are good ones, and there tend to be a lot of them. 
+We spoke to Intel, which has plants in Oregon and Arizona, and GlobalFoundries, which has locations in upstate New York and Vermont; TI makes chips in Texas. The Semiconductor Industry Association (SIA) said a new fab generally requires 3,000 to 6,000 employees. It takes about two years to build a fab and another 1.5 years to bring it up to speed, said Intel’s Slater.
+So why are we so far behind on manufacturing? "The governments and companies of Taiwan and Korea understood that investing in homegrown fabs was a long-term way for them to continue to grow their tech sectors and manufacturing capabilities," said analyst Anshel Sag of Moor Insights.
+The US punches far above its weight in chip design, as opposed to manufacturing—but that doesn't create those manufacturing jobs. The SIA said in a report that US companies are responsible for 45% to 50% of global semiconductor sales, but they mostly contract out to foreign foundries now. Qualcomm Technologies Inc. (QTI) is a perfect example of this split. The world's second-largest mobile chipset manufacturer is a mainstay of the San Diego economy, but it's "fabless,” meaning it doesn't build any of its chips itself.
+The following is a sample of the companies still making chips and components in the US:
+Corning Gorilla Glass, made in Harrodsburg, KY, covers the screens of your favorite mobile phones.
+Ericsson’s Smart Factory in Lewisville, TX, is building 5G base stations for US wireless carriers.
+GlobalFoundries makes chips and wafers in upstate NY and VT for AMD, the automotive industry, and others.
+Intel’s processors are made in the US.
+Micron produces DRAM and NAND flash memory at two locations in the US.
+OFS makes giant spools of fiber-optic cable for internet connections.
+PNY, based in Parsippany, NJ, assembles flash drives.
+Qorvo makes some of the RF chips that go into iPhones.
+Skyworks is Qorvo’s top competitor for board space in iPhones.
+TI makes a range of chips at its plant in Richardson, TX.
+"Integrated fabless manufacturing enables QTI to produce modern processors which are optimized for price, performance, and power efficiency, through sourcing multiple foundries at various process nodes," the company said in a 2014 white paper. 
+Sag said that US investors "have traditionally seen fabs inside chip companies as a liability more than an asset" and so have encouraged the decoupling of US chipmakers from the actual manufacturing. "It's extremely capital-intensive, depreciation is significant, and there is very little incentive to build capacity beyond demand," he said.
+As the industry decoupled, the new foundries weren't built in the US. The SIA report says 38% of chips are now made in third-party foundries, but only 7% are made in the US.
+"As much as 40% to 70% of the higher cost for US-based fabs is directly attributable to much lower incentives than those currently provided in China, Taiwan, Singapore, and other countries," said the SIA. These "incentives" can take many forms. While the US is really good at giving tax breaks, the SIA said, Taiwan gives massive subsidies for construction and equipment and has lower labor costs, and those make more of a difference.
+"Leading-edge fabs require a $10-billion-to-$20-billion investment and significant support from the government. By some estimates, it costs two to three times more to build an advanced fab in the US than in Taiwan," said Strategy Analytics analyst Sravan Kundojjala.
+The SIA estimates that a $50 billion incentive program would vault the US up to producing 24% of the world's chips, with 19 fabrication plants. We’ll also need to train workers to run them.
+"There's a significant gap in terms of skilled workers that are needed to run these fabs," Sag pointed out. Kundojjala estimated it would take five to 10 years of education for the US to match the leaders in terms of a semiconductor manufacturing workforce.
+It’s impossible to build a PC entirely without foreign parts, but these firms handle primary assembly in the US:
+Apple makes some Mac Pro models in TX.
+Datto builds backup servers in CT.
+DigitalStorm produces gaming PCs in CA.
+Falcon Northwest has been building high-end PCs in OR since 1992.
+HP Enterprise builds some servers in WI.
+Lenovo has a small assembly operation in NC.
+Origin PC makes all of its computers in FL.
+Supermicro servers for the US are often made in CA.
+Every Velocity Micro PC is assembled by hand in VA.
+PCs are absolutely built in the United States, but it's impossible to build them solely from US components. That's true of all of the complex electronics in our study and is unlikely to change, according to experts.
+"PCB [printed circuit board] manufacturing and assembly is a very low-margin business and is largely located in Asia. It comes down to access to low-cost labor, a vast ecosystem of factory infrastructure, and flexibility. It is hard to replicate the ecosystem in the US today," said Kundojjala. 
+Velocity Micro’s Josh Covington agreed. “With the exception of a few processors, the majority of components still have overseas origins. Taiwan, China, and Japan are so far ahead of us in terms of manufacturing infrastructure and cheap labor, it’s virtually impossible for component manufacturers to bring production back to the US and still be price-competitive,” he said.
+In general, PCs built in the US are higher-end, lower-volume models, such as Apple's premium Mac Pros and Origin's gaming PCs. A 2019 New York Times report explains why: "Apple has found that no country—and certainly not the United States—can match China’s combination of scale, skills, infrastructure and cost," it said, citing the massive existing infrastructure of everything from screw vendors to assembly lines in China.
+American workers cost more and demand better working conditions than Chinese ones do, according to the Times report. That raises the prices and lowers the potential volume of American products. When we looked at PC, consumer electronics, and electric bike manufacturers in the US, we found that in general, they produce high-cost, high-quality, and high-performance products, not the inexpensive gear on the shelves of your local big-box store.
+If we want PCs made by high-wage US workers who live in average suburban US homes, we’re going to have to come to terms with the cost of making that happen.
+“Consumers need to adjust their pricing expectations. We’ve all become so accustomed to cheap tech over the past few decades, but the truth is that tech is cheap because overseas production is cheap. We also need more companies willing to innovate and invest in production here, despite those higher costs,” Covington said.
+Many higher-end audio brands are still made at least partially in the US, and some other higher-end consumer electronics are made here, too.
+Audeze headphones are assembled in CA.
+Clark Blumenstein handcrafts wooden speaker cabinets in WA.
+Dan Clark Audio makes its headphones in CA.
+Flir builds infrared camera sensors in CA.
+Grado headphones have been made in NY since 1953.
+Some Klipsch speaker cabinets are still carved by hand in AR.
+Kymeta produces satellite dishes in WA for off-the-grid internet access.
+McIntosh Labs audio products are all made in NY.
+Planar builds “video walls” of multiple LCD panels in OR.
+RED cameras are assembled in CA.
+Seura’s televisions disappear into attractive wall mirrors; they’re made in WI.
+Shinola is a mainstay of the “new Detroit,” MI.
+Skydio is the top US manufacturer of drones, located in CA.
+Starlink builds consumer satellite terminals in WA and is considering making many more in TX.
+Sunbrite TVs are made for the outdoors in sunny southern CA.
+U-Turn Audio turntables have always been made in MA.
+Not everything that says it's "made in America" is, in fact, made in America. Companies may slap the label on to play at patriotism, but it's more likely that they're doing it to play for subsidies.
+Element Electronics sells TVs through Walmart and claims it has "the only mass assembly television factory in the United States. The Winnsboro, South Carolina, factory employs over 400 workers and delivers more than 1 million televisions each year." 
+But in 2014, the Alliance for American Manufacturing discovered that Element's "assemblers" were just taking a Chinese-made TV and inserting a Chinese-made memory card into it. That led to a Federal Trade Commission complaint, which foundered on quibbles over what a "substantial transformation" of a product is.
+Element is still playing the same game, South Carolina–based FITSNews reports. The company has received millions in government subsidies and property tax breaks for its US factory, which FITSNews said really just checks and repackages Chinese products: "We have spoken with sources who have been inside Element’s Winnsboro, SC facility as recently as last month who tell us its ‘screwdriver’ manufacturing process remains in place. Specifically, they claim the ‘mechanical testing’ consists entirely of plugging the televisions into an outlet and turning them on … that’s it."
+That "substantial transformation" bit is tricky. The International Trade Administration said a substantial transformation needs to involve "a fundamental change … which adds to its value," and that "usually a new article of commerce—normally one with a different name—is found to result." Sticking a memory card in a TV does add to its value, but it doesn't create a device with a different name, and it wouldn't pass most people's smell tests.
+We have two TV manufacturers on our list—Seura and Sunbrite—and there's a third, Skyvue, which could have been listed as well but hasn’t replied to our emails. The difference between these companies and Element's reported "transformation" is huge. No TV panels are made in the US; they’re all imported. But the "real" US TV makers then turn the units into something different, by incorporating them into mirrors or pumping up the backlights and installing them in weatherproof housings. 
+The dream of US LCD panels (and more than that, US jobs) led the Trump administration and the Wisconsin state government into a 2017 deal with Foxconn to build a huge plant with 13,000 jobs in Mount Pleasant, WI. But as a massive investigation from The Verge revealed in late 2020, Foxconn betrayed all its promises. It never built an LCD factory, it played fast and loose with hiring requirements, and did very little manufacturing. The company promised it would invest $10 billion, but had only invested only 3% of that number.
+This April, the project crashed to Earth with a new deal in which Foxconn says it will deliver fewer than 1,500 jobs, according to CNN; it currently only has “several hundred.” The company still won’t explain what it plans to make at the site. 
+The future of US electric cars looks exciting whether or not Foxconn’s vaporware ever turns into anything real. GM, Nissan, and Tesla already make mass-market electric cars here, and they’ll soon be joined by Lordstown and Rivian, electric-truck startups that are repurposing old auto plants in the Midwest to build next-generation vehicles. The first Rivian SUVs will hit the streets this summer, and Lordstown said it’s targeting late September for its trucks. And just last week, Ford revealed its electric F-150 pickup truck, which will be built in Michigan. (The company builds its Mustang Mach-E in Mexico.)
+Here are some of the electric-vehicle companies developing in the US:
+Chevrolet’s electric Bolt and the upcoming GMC Hummer EVs are built in MI.
+The Electric Bike Co. builds beautiful electric bicycles in CA.
+All of Harley-Davidson’s Livewire electric motorcycles are made in PA.
+Lordstown Endurance is a new electric truck manufacturer in OH.
+The Nissan Leaf electric car is built in TN.
+Rivian’s electric cars will be built in IL.
+Tesla’s huge factory in northern CA churns out electric cars daily.
+Zero Motorcycles’ electric motorbikes are made in CA.
+Ford has pledged to build its new F-150 Lightning truck in MI.
+Figuring out how to breathe life back into American high-tech manufacturing has been a focus of both the Trump and Biden administrations.
+Under Trump, much of the action was around tariffs. According to the AAM’s Scott Paul, "Trump took action. He imposed tariffs on some imported steel. He renegotiated NAFTA and withdrew from entering the Trans-Pacific Partnership trade agreement. For a few months, he jawboned at companies that were offshoring jobs. He negotiated an agreement with China and has kept tariffs on many Chinese imports."
+But Paul ultimately saw Trump's moves as a lot of rhetoric with few results. "His grandiose rhetoric and erratic policies on trade and manufacturing didn’t usher in a new era of prosperity for factory towns. Many are in fact worse off than when he entered office,” Paul concluded.
+President Biden's approach appears to be more around investment; more carrot than stick. Biden let loose with an executive order assessing "America's supply chains" on Feb. 24 and a detailed jobs and workforce development plan on March 31.
+Biden's "American Jobs Plan" asks for a bevy of investments: $52 billion for domestic manufacturers, $31 billion for small business incubators and access to credit, $20 billion for 10 "regional innovation hubs," $46 billion of direct purchases of products such as American-made electric cars, and $50 billion for an office at the Department of Commerce dedicated to investing in critical US supply chains.
+For the semiconductor field, the biggest deal is the Creating Helpful Incentives for Producing Semiconductors (CHIPS) for America Act. Passed last year but not funded, this new legislation authorizes the Department of Commerce to provide semiconductor makers with $3 billion subsidies each. 
+Biden's current infrastructure proposal would fund the CHIPS Act with $50 billion "in semiconductor manufacturing and research" over several years, according to EE Times, but it's stuck in a partisan battle over Biden's legislative agenda. EE Times quotes an analyst as saying that even if the plan succeeds, "The amount proposed by President Biden would probably still fall short of the amount necessary to get the US back in the game."
+
+
+This newsletter may contain advertising, deals, or affiliate links. Subscribing to a newsletter indicates your consent to our Terms of Use and Privacy Policy. You may unsubscribe from the newsletters at any time.
+Your subscription has been confirmed. Keep an eye on your inbox!
+PCMag.com is a leading authority on technology, delivering Labs-based, independent reviews of the latest products and services. Our expert industry analysis and practical solutions help you make better buying decisions and get more from technology.
+© 1996-2021 Ziff Davis, LLC. PCMag Digital Group
+PCMag, PCMag.com and PC Magazine are among the federally registered trademarks of Ziff Davis, LLC and may not be used by third parties without explicit permission. The display of third-party trademarks and trade names on this site does not necessarily indicate any affiliation or the endorsement of PCMag. If you click an affiliate link and buy a product or service, we may be paid a fee by that merchant.
