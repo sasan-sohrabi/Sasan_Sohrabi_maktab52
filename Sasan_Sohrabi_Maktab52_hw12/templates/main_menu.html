@@ -1,0 +1,267 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="{% static '/css/styles.css' %}" rel="stylesheet">
+    <link href="{% static '/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static '/css/solid.min.css' %}" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/ink-free" rel="stylesheet">
+    <link href="{% static '/css/styles1.css' %}" rel="stylesheet">
+    <link href="{% static '/css/slideshow.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            font-family: "Bookman Old Style";
+            font-weight: bolder;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        .custom_font {
+            font-family: "Blackadder ITC";
+            font-weight: bolder;
+        }
+
+        #images img {
+            width: 400px;
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        li {
+            text-align: center;
+            font-style: oblique;
+            font-weight: bolder;
+
+        }
+
+        body {
+            padding-bottom: 4em;
+        }
+
+        .filter-list {
+            text-align: center;
+            padding: 5rem 0;
+            text-transform: uppercase;
+            width: 100%;
+        }
+
+        .filter-list h3 {
+            display: block;
+        }
+
+        .filter-list .btn {
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0;
+        }
+
+        .filter-list .btn.active {
+            background: rgba(80, 61, 43, 0.68);
+            color: #fff;
+        }
+
+        .data-id {
+            display: none;
+        }
+
+        .menu-ss a.main-nav-item-ss:hover {
+            border: black solid 2px;
+            border-radius: 30%;
+        }
+
+        .HoverClass1:hover {
+            border: black solid 2px;
+            border-radius: 30%;
+        }
+    </style>
+</head>
+<body>
+<div class='main-div' id="main-div">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center center fade-in-up animated animatedFadeInUp fadeInUp">
+        </div>
+    </div>
+</div>
+</div>
+<header>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-light bg-nav rounded navbar-fixed-top">
+            <a class="navbar-brand">
+                <img src={% static '/images/coffee-logo-png-free-transparent-png-logos-cafe-logo-png-2000_2000.png/' %} height="65px"
+                     width="100">
+            </a>
+            <a class="navbar-brand"> GROUP ONE CAFE</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav menu-ss">
+                    <a class="nav-item nav-link main-nav-item-ss" href={% url 'list_view:homepage' %}>Home</a>
+                    <a class="nav-item nav-link main-nav-item-ss active" href={% url 'list_view:menu' %}>Menu</a>
+                    <a class="nav-item nav-link main-nav-item-ss" href={% url 'list_view:aboutus' %}>About us</a>
+                    <a class="nav-item nav-link main-nav-item-ss" href={% url 'list_view:contact' %}>Contact</a>
+                </div>
+                <div class="navbar-nav ml-auto menu-ss">
+                    <a href="/dashboard" class="nav-item nav-link main-nav-item-ss">Login</a>
+                </div>
+                <div class="navbar-nav ml-2 menu-ss">
+                    <!-- Icon -->
+                    <a class="nav-item nav-link main-nav-item-ss" href="#">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="nav-item nav-link btn" data-toggle="modal"
+                                data-target="#exampleModalLong">
+                            <i class="fa fa-shopping-cart "></i>
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+</header>
+<div id="main-div-1">
+    <div class="container">
+        <div class="row">
+            <div class="filter-list">
+                <h3>Coffee Menu</h3>
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="drink">Drink</button>
+                <button class="btn btn-default filter-button" data-filter="eat">Eat</button>
+            </div>
+        </div>
+        <div class="row card-group " id="cardGenerator">
+
+        </div>
+        <!-- Modal -->
+        <form id='formdata'>
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLongTitle"
+                 aria-hidden="true">
+                <div class="modal-dialog modal-lg bg-nav" role="document">
+                    <div class="modal-content bg-nav">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Coffee Cart</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="container content-section">
+                                <div class="cart-row">
+                                    <span class="cart-item cart-header cart-column">ITEM</span>
+                                    <span class="cart-price cart-header cart-column">PRICE</span>
+                                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                                </div>
+                                <div class="cart-items">
+                                </div>
+                                <div class="cart-total">
+                                    <label for="selectNumber" style="border-radius: 10%">Table:</label>
+                                    <select id="selectNumber" class="bg-nav "
+                                            style="border-radius: 10% ; margin-right: 80px">
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                        <option value="4">Four</option>
+                                        <option value="5">Five</option>
+                                        <option value="6">Six</option>
+                                        <option value="7">Seven</option>
+                                        <option value="8">Eight</option>
+                                        <option value="9">Nine</option>
+                                    </select>
+
+                                    <strong class="cart-total-title">Total</strong>
+                                    <span class="cart-total-price">$0</span>
+                                </div>
+
+                            </section>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="submit" id="btn-purchase" onclick="test()">PURCHASE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script></script>
+<script>
+    function showvalue() {
+        console.log($('#formdata').value);
+    }
+</script>
+<script>
+    function test() {
+        let dataOrder = {
+            "items": {},
+            "table": $("#selectNumber").val(),
+            "total": $(".cart-total-price")[0].innerText
+        }
+        $('.cart-quantity-input').each(function () {
+            dataOrder["items"][Number($(this).attr("dataid-quantity"))] = {"quantity": $(this)[0].value};
+        });
+        console.log(dataOrder)
+        $.ajax({
+            url: {% url 'list_view:menu' %},
+            headers: { "X-CSRFToken": '{{csrf_token}}' },
+            type: 'POST',
+            data: JSON.stringify(dataOrder),
+            contentType: 'application/json',
+            dataType: 'json'
+
+        });
+
+
+        for (let data in dataOrder) {
+            console.log(data)
+            console.log(dataOrder[data])
+        }
+
+    }
+
+    $(document).ready(function () {
+        let data_menu = JSON.parse("{{data|escapejs}}");
+        menuGenerator(data_menu)
+
+        $(".filter-button").click(function () {
+            var value = $(this).attr('data-filter');
+
+            if (value == "all") {
+
+                $('.filter').show('1000');
+            } else {
+
+                $(".filter").not('.' + value).hide('3000');
+                $('.filter').filter('.' + value).show('3000');
+
+            }
+
+
+            if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+        });
+
+    });
+</script>
+<script src="{% static '/js/slideshow.js' %}"></script>
+<script src="{% static '/js/MenuGenerator.js' %}"></script>
+</body>
+</html>

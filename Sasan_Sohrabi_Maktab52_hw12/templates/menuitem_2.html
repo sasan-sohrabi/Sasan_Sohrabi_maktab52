@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body class="bg-dark">
+<form enctype="multipart/form-data" method="post" class="bg-white m-auto text-center"
+      style="width: 50%; padding: 1rem; border-radius: 10px; color: black" action={% url 'list_view:menuitem2' %}>
+    {% csrf_token %}
+    {% for element in form %}
+        <div class="form-group text-center">
+            {{ element.label_tag }}<br>
+            {{ element }}
+            {{ element.errors }}
+        </div>
+    {% endfor %}
+    <input type="submit" class="btn btn-primary">
+</form>
+</body>
+</html>

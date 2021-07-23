@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+:root {
+  --backcolor: rgba(56, 36, 5, 0.57);
+  --navcolor:  rgba(245, 227, 135, 0.75);
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+}
+.container10
+{
+    position: relative;
+    width: 100%
+}
+.navigation10
+{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: var(--navcolor);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation10.active10
+{
+    width: 300px;
+}
+.navigation10 ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.navigation10 ul li
+{
+    position: relative;
+    width:100%;
+    list-style: none;
+}
+.navigation10 ul li:hover
+{
+    background: var(--backcolor);
+}
+.navigation10 ul li:nth-child(1)
+{
+    margin-bottom: 20px;
+}
+.navigation10 ul li:nth-child(1):hover
+{
+    background: transparent;
+}
+.navigation10 ul li a
+{
+    position: relative;
+    display: block;
+    width:100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navigation10 ul li a .icon10
+{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-justify: auto;
+}
+.navigation10 ul li a .icon10 .fa
+{
+    color: black;
+    font-size: 24px;
+}
+.navigation10 ul li a .title10
+{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height:60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.main10
+{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height:100vh ;
+    background: #f5f5f5;
+    transition: 0.5s;
+}
+.main10.active10
+{
+    width: calc(100% - 60px);
+    left: 60px;
+}
+.main10 .topbar10
+{
+    width: 100%;
+    background: var(--navcolor);
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle10
+{
+    position: relative;
+    width : 60px ;
+    height: 60px;
+    cursor: pointer;
+}
+.toggle10:before
+{
+    content: '\f0c9';
+    font-family: FontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100% ;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+.search10
+{
+    position: relative;
+    width: 400px;
+    margin: 0 10px;
+}
+.search10 label
+{
+    position: relative;
+    width: 100%;
+}
+.search10 label input
+{
+    width :100%;
+    height:40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    padding-left: 35px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.2);
+
+}
+.search10 label .fa
+{
+    position: absolute;
+    left:15px;
+    top :4px;
+}
+.user10
+{
+    position: relative;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.user10 img
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardbox10
+{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.cardbox10 .card10
+{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.cardbox10 .card .number10
+{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardbox10 .card10 .iconbox10
+{
+    font-size: 2.5em;
+    color: var(--backcolor);
+}
+.details10
+{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+.details10 .recentOrder10
+{
+    position: relative;
+
+    min-height: 530px;
+    background: #fff;
+    padding: 20px;
+
+}
+.cardheader10
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cardheader10 h2
+{
+    font-weight: 600;
+}
+.btn10
+{
+    position: relative;
+    padding: 5px 10px;
+    background: var(--backcolor);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+.details10 table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+.details10 table thead td{
+    font-weight: 600;
+}
+.details10 .recentOrder10 table tr
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+.details10 .recentOrder10 table  tbody tr:last-child
+{
+    border-bottom:none;
+}
+.details10 .recentOrder10 table  tbody tr:hover
+{
+    background: var(--navcolor);
+    color:#fff;
+}
+.details10 .recentOrder10 table tr td
+{
+    padding: 9px 5px;
+}
+.details10 .recentproduct10
+{
+    position: relative;
+    min-height: 530px;
+    background: #fff;
+    padding: 20px;
+}
+
+.details10 .recentproduct10 .imgbx10
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.details10 .recentproduct10 .imgbx10 img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details10 .recentproduct10 table tr td h4 span
+{
+    font-size: 14px;
+    color: #999;
+}
+.details10 .recentproduct10 table tr:hover,
+.details10 .recentproduct10 table tr:hover td h4 span
+{
+     background: var(--navcolor);
+    color:#fff;
+}
+.details10 .recentproduct10 table tr
+{
+    padding: 7px 10px;
+}
+.details10 .recentproduct10 table tr td h4
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+@media (max-width: 992px)
+{
+    .navigation10
+    {
+        left: -300px;
+    }
+    .navigation10.active10
+    {
+        left: 0;
+        width: 300px;
+    }
+    .main10
+    {
+        width: 100%;
+        left: 0;
+    }
+    .main10.active10
+    {
+        width: calc(100% - 300px);
+        left: 300px;
+    }
+    .cardbox10
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 768px)
+{
+    .details10
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cardheader10 h2{
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+@media (max-width: 480px)
+{
+    .details10 .recentOrder10
+    {
+        overflow-x: auto;
+    }
+    .details10 .recentOrder10 table
+    {
+        width: 600px;
+    }
+    .navigation10
+    {
+        width: 100%;
+        left: -100%;
+        z-index: 1000;
+
+    }
+    .navigation10.active10
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle10.active10
+    {
+        position: fixed;
+        z-index: 10000;
+        right: 0;
+        left: initial;
+    }
+    .toggle10.active10::before
+    {
+        color: #fff;
+        content: '\f00d';
+    }
+    .main10,
+    .main10.active10
+    {
+        width: 100%;
+        left: 0;
+    }
+}

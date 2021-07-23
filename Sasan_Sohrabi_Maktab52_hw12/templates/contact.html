@@ -1,0 +1,292 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="{% static '/css/styles.css' %}" rel="stylesheet">
+    <link href="{% static '/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static '/css/solid.min.css' %}" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/ink-free" rel="stylesheet">
+    <link href="{% static '/css/styles1.css' %}" rel="stylesheet">
+    <link href="{% static '/css/slideshow.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            font-family: "Bookman Old Style";
+            font-weight: bolder;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        .custom_font {
+            font-family: "Blackadder ITC";
+            font-weight: bolder;
+        }
+
+        #images img {
+            width: 400px;
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        li {
+            text-align: center;
+            font-style: oblique;
+            font-weight: bolder;
+
+        }
+
+        body {
+            padding-bottom: 4em;
+        }
+
+        .filter-list {
+            text-align: center;
+            padding: 5rem 0;
+            text-transform: uppercase;
+            width: 100%;
+        }
+
+        .filter-list h3 {
+            display: block;
+        }
+
+        .filter-list .btn {
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0;
+        }
+
+        .filter-list .btn.active {
+            background: rgba(80, 61, 43, 0.68);
+            color: #fff;
+        }
+
+        .data-id {
+            display: none;
+        }
+
+        .menu-ss a.main-nav-item-ss:hover {
+            border: black solid 2px;
+            border-radius: 30%;
+        }
+
+        .HoverClass1:hover {
+            border: black solid 2px;
+            border-radius: 30%;
+        }
+    </style>
+</head>
+<body>
+<div class='main-div' id="main-div">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center center fade-in-up animated animatedFadeInUp fadeInUp">
+        </div>
+    </div>
+</div>
+</div>
+<header>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-light bg-nav rounded navbar-fixed-top">
+            <a class="navbar-brand">
+                <img src={% static '/images/coffee-logo-png-free-transparent-png-logos-cafe-logo-png-2000_2000.png/' %} height="65"
+                     width="100">
+            </a>
+            <a class="navbar-brand"> GROUP ONE CAFE</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav menu-ss">
+                    <a class="nav-item nav-link main-nav-item-ss" href={% url 'list_view:homepage' %}>Home</a>
+                    <a class="nav-item nav-link main-nav-item-ss" href={% url 'list_view:menu' %}>Menu</a>
+                    <a class="nav-item nav-link main-nav-item-ss" href={% url 'list_view:aboutus' %}>About us</a>
+                    <a class="nav-item nav-link main-nav-item-ss active" href={% url 'list_view:contact' %}>Contact</a>
+                </div>
+                <div class="navbar-nav ml-auto menu-ss">
+                    <a href="/dashboard" class="nav-item nav-link main-nav-item-ss">Login</a>
+                </div>
+                <div class="navbar-nav ml-2 menu-ss">
+                    <!-- Icon -->
+                    <a class="nav-item nav-link main-nav-item-ss" href="#">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="nav-item nav-link btn" data-toggle="modal"
+                                data-target="#exampleModalLong">
+                            <i class="fa fa-shopping-cart "></i>
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+</header>
+<div id="main-div-1">
+<section class=" wrapper animated animatedFadeInUp fadeInUp " style="height: 50%; width: 50%; margin:5% 10% 10% 25%">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="#" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control bg-light-custom">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control bg-light-custom">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control bg-light-custom">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea bg-light-custom"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn bg-dark"  style="margin-top: 10%;color:white;border-color: black" onclick="validateForm();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>South Terminal, Tehran</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+98 21-4453-456</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>support@groupone.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+</div>
+<script></script>
+<script>
+    function showvalue() {
+        console.log($('#formdata').value);
+    }
+</script>
+<script>
+    function test() {
+        let dataOrder = {
+            "items": {},
+            "table": $("#selectNumber").val(),
+            "total": $(".cart-total-price")[0].innerText
+        }
+        $('.cart-quantity-input').each(function () {
+            dataOrder["items"][Number($(this).attr("dataid-quantity"))] = {"quantity": $(this)[0].value};
+        });
+        console.log(dataOrder)
+        $.ajax({
+            url: '/menu',
+            type: 'POST',
+            data: JSON.stringify(dataOrder),
+            contentType: 'application/json',
+            dataType: 'json'
+
+        });
+
+
+        for (let data in dataOrder) {
+            console.log(data)
+            console.log(dataOrder[data])
+        }
+
+    }
+
+    $(document).ready(function () {
+
+        $(".filter-button").click(function () {
+            var value = $(this).attr('data-filter');
+
+            if (value == "all") {
+
+                $('.filter').show('1000');
+            } else {
+
+                $(".filter").not('.' + value).hide('3000');
+                $('.filter').filter('.' + value).show('3000');
+
+            }
+
+
+            if ($(".filter-button").removeClass("active")) {
+                $(this).removeClass("active");
+            }
+            $(this).addClass("active");
+
+        });
+
+    });
+</script>
+<script src="{% static '/js/slideshow.js' %}"></script>
+<script src="{% static '/js/ShopCardGenerator2.js' %}"></script>
+</body>
+</html>
