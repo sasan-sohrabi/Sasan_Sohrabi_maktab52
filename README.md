@@ -1,5 +1,5 @@
 
-# Sasan Sohrabi Maktab52 Homework Repository
+# Maktab52 Homework Repository
 
 This repository contains homework assignments and projects completed as part of the Maktab52 programming course. The focus is on topics such as **Python programming**, **object-oriented programming (OOP)**, **data structures**, and **algorithms**.
 
